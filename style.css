@@ -7,7 +7,6 @@ html, body {
 }
 .circle {
     background-image: url(media/img.png);
-    position:relative;
     width:25%;
     padding-bottom:25%;
     text-align:center;
@@ -15,9 +14,10 @@ html, body {
     top: 25%;
     background-size: cover;
     color: white;
+    position:relative;
 }
 .shaking {
-    animation: shake 0.5s cubic-bezier(.5,.5,.5,.5) ;
+    animation: shake 0.4s cubic-bezier(.5,.5,.5,.5) ;
 }
 .answer{
     position:absolute;
