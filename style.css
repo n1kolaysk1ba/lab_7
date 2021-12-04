@@ -1,0 +1,49 @@
+html, body {
+    height:100%;
+    background: url(https://images.wallpaperscraft.ru/image/single/dym_belyj_izvivaiushchijsia_131424_1920x1080.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.circle {
+    background-image: url(media/img.png);
+    position:relative;
+    width:25%;
+    padding-bottom:25%;
+    text-align:center;
+    margin: auto;
+    top: 25%;
+    background-size: cover;
+    color: white;
+}
+.shaking {
+    animation: shake 0.5s cubic-bezier(.5,.5,.5,.5) ;
+}
+.answer{
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    font-size: 30px;
+}
+@keyframes shake {
+    10% {
+        transform: translate3d(5px, 0, 0);
+    }
+    
+    30%{
+        transform: translate3d(-5px, 0, 0);
+    }
+    
+    50%{
+        transform: translate3d(10px, 0, 0);
+    }
+   
+    70% {
+        transform: translate3d(-10px, 0, 0);
+    }
+    
+    90% {
+        transform: translate3d(5px, 0, 0);
+    }
+}
