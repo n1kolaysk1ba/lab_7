@@ -14,7 +14,7 @@ function Question(){
     }
     //Make ball shaking
     document.getElementById("circle").classList.add('shaking');
-    setTimeout(DeleteShaking, 500);
+    setTimeout(DeleteShaking, 350);
     answers = ["Yes", "No", "Maybe", "Probably"];
     const randomElement = answers[Math.floor(Math.random() * answers.length)];
     document.getElementById("answer").innerHTML = randomElement;
